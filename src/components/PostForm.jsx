@@ -130,7 +130,7 @@ export const PostForm = () => {
                   type="text"
                   id="imageUrl"
                   class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                  placeholder="Image URL (https://source.unsplash.com/...)"
+                  placeholder="Image URL (click open image in new tab then copy the URL)"
                   value={imageURL}
                   onChange={(e) => setimageURL(e.target.value)}
                 />
