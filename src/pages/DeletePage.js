@@ -7,7 +7,7 @@ export const DeletePage = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const deletePost = async () => {
-      await fetch(`https://backendtesting1234.herokuapp.com/api/${slug}`, {
+      await fetch(`https://backend-virid-zeta.vercel.app/api/${slug}`, {
         method: 'DELETE',
       });
       setLoading(false);

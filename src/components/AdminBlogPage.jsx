@@ -16,7 +16,7 @@ export const AdminBlogPage = () => {
   };
 
   const deleteFunction = () => {
-    fetch(`https://backendtesting1234.herokuapp.com/api/articles/${slug}`, {
+    fetch(`https://backend-virid-zeta.vercel.app/api/articles/${slug}`, {
       method: "DELETE",
     }).catch((error) => console.log(error));
     console.log("success");

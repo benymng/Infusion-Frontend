@@ -19,7 +19,7 @@ export const AdminSignup = () => {
       passwordHash: hash,
     });
     console.log(newLogin);
-    fetch("https://backendtesting1234.herokuapp.com/api/login", {
+    fetch("https://backend-virid-zeta.vercel.app/api/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: newLogin,

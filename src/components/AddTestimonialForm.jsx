@@ -25,7 +25,7 @@ export const AddTestimonialForm = () => {
       body: newTestimonial,
     };
     let res = await fetch(
-      "https://backendtesting1234.herokuapp.com/api/testimonials/",
+      "https://backend-virid-zeta.vercel.app/api/testimonials",
       requestOptions
     );
     if (res.status === 200) {

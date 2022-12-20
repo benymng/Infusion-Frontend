@@ -27,7 +27,7 @@ const EditForm = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch(
-        `https://backendtesting1234.herokuapp.com/api/${slug}`
+        `https://backend-virid-zeta.vercel.app/api/${slug}`
       )
         .then((res) => res.json())
         .then((json) => setData(json));
